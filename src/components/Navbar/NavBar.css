@@ -1,0 +1,19 @@
+.NavBar_Container{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #eebeb4da;
+    padding: 15px 0px;
+    margin-top: 10px;
+    border-radius: 35px;
+    position: fixed;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+.NavBar_Button{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+}

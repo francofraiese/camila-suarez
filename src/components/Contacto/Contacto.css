@@ -1,0 +1,124 @@
+.Contacto_Container{
+    width: 95%;
+    margin-top: 50px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #eb7f67;
+    border-radius: 35px;
+}
+
+.Contacto_Left{
+    width: 40%;
+    margin-left: 8%;
+}
+
+.Contacto_Title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.Contacto_Title > h2 {
+    margin: 3px 0;
+    padding: 0;
+    font-size: 60px;
+}
+
+.Contacto_Links{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Contacto_Links > h2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.Contacto_Mail, .Contacto_Linkedin, .Contacto_Numero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px
+}
+
+.Contacto_Mail > h4, .Contacto_Linkedin > h4, .Contacto_Numero > h4{
+    margin: 0;
+    font-weight: 400;
+}
+
+.Contacto_Mail:hover,  .Contacto_Linkedin:hover, .Contacto_Numero:hover{
+    cursor:pointer
+}
+
+.Contacto_Mail > svg,  .Contacto_Linkedin > svg, .Contacto_Numero > svg{
+    color: #060724;
+    font-size: 50px
+}
+
+.Contacto_Right{
+    width: 45%;
+    margin-right: 8%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.Contacto_Form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.Contacto_Input{
+    width: 100%;
+    background-color: transparent;
+    border: solid 3px #060724;
+    border-radius: 35px;
+    padding: 10px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color: #EDECED;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Contacto_Textarea{
+    width: 100%;
+    background-color: transparent;
+    border: solid 3px #060724;
+    border-radius: 35px;
+    padding: 10px 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    resize: none;
+    color: #EDECED
+}
+
+.Contacto_Textarea::placeholder, .Contacto_Input::placeholder{
+    color: #edecedc5;
+}
+
+.Contacto_Submit{
+    width: fit-content;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: none;
+    background-color: #060724;
+    border-radius: 35px;
+    color:#EDECED;
+}
+
+.Contacto_Submit:hover{
+    cursor:pointer
+}

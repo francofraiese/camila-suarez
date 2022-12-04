@@ -1,0 +1,42 @@
+.About_Container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    gap: 15%
+}
+
+.About_Left {
+    width: 55%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.About_Left > h1 {
+    font-size: 75px;
+    margin: 10px 0px
+}
+
+.About_Left > h2 {
+    margin: 0px 0px 0px 15px;
+    font-size: 35px;
+}
+
+.About_Left > h3{
+    margin-top: 35px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.About_Right{
+    width: 40%;
+    max-width: 40%;
+}
+
+.About_Right > img {
+    width: 70%;
+}
